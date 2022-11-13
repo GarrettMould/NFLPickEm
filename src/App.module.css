@@ -1,0 +1,32 @@
+@font-face {
+  font-family: CircularMedium;
+  src: url(./fonts/circular-medium.ttf);
+}
+
+:root {
+  --primary-font: CircularMedium;
+  --color-blue: #0157ff;
+  --color-blue-light: #b3caf630;
+  --color-white: #fff;
+  --color-black: #121212;
+  --color-dark-grey: #515260;
+  --color-button-grey: rgba(177, 183, 197, 0.30);
+
+}
+
+button { 
+  background-color: transparent;
+  border: none; 
+  outline: none;
+}
+
+button:hover { 
+  cursor: pointer;
+}
+* { 
+  font-family: var(--primary-font);
+}
+
+.App { 
+  padding: 15px;
+}

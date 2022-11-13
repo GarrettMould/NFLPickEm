@@ -1,0 +1,113 @@
+/* Game Card Basics */
+
+.gameCard { 
+    border: 1px solid rgb(230, 230, 230);
+    transition: box-shadow 0.3s;
+    width: 100%;
+    box-shadow: 0 0 1px 0 hsla(0,0%,8%,.1),0 1px 8px -1px hsla(0,0%,8%,.2) !important;
+    margin-bottom: 2rem;
+}
+
+.gameCard:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.cardContentContainer { 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+/* Game Information */
+
+.gameInfoContainer { 
+  width: 100%;
+  display: flex; 
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.gameInfo { 
+  font-size: 1rem;
+}
+
+
+
+/* Team Information */
+
+.teamsContainer { 
+  width: 100%;
+  display: flex; 
+  flex-direction: column;
+}
+
+.teamColumnContainer { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.teamImage { 
+  max-width: 70px;
+  align-self: center;
+}
+
+.teamInformationContainer {
+  width: 100%;
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.teamName { 
+  margin-left: 0.5rem;
+  font-size: 1rem; 
+  color: var(--color-black);
+}
+
+.nameRecordContainer { 
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+ 
+}
+
+.btnRecord { 
+  background-color: transparent;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+}
+
+
+
+.record { 
+  color: var(--color-dark-grey); 
+  font-size: 1rem;
+  padding: 0.2rem; 
+}
+
+/* Pick Buttons */ 
+
+.btnPickContainer { 
+  width: 100%;
+  display: flex; 
+  justify-content: end;
+}
+.btnPick { 
+  width: 120px;
+  background-color: var(--color-button-grey);
+  height: 35px;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+
+
