@@ -2,6 +2,7 @@ import React from 'react'
 import classes from './GameCard.module.css'
 import Chiefs from "../images/chiefs.png"
 import Raiders from "../images/raiders.png"
+import { Check } from "phosphor-react";
 
 export const GameCard = () => {
   return (
@@ -19,7 +20,7 @@ export const GameCard = () => {
               </div>
               <button className={classes.btnRecord}><div className={classes.record}>5-2</div></button>
               <div className={classes.btnPickContainer}>
-                <button className={classes.btnPick}>Pick</button>
+                <button className={classes.btnPick}></button>
               </div>
           </div>
           <div className={classes.teamColumnContainer}>
@@ -29,7 +30,7 @@ export const GameCard = () => {
               </div>
               <button className={classes.btnRecord}><div className={classes.record}>2-5</div></button>
               <div className={classes.btnPickContainer}>
-                <button className={classes.btnPick}>Pick</button>
+                <button className={classes.btnPick}></button>
               </div>
           </div>
         </div>
